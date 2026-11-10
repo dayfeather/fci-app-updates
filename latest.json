@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.3",
-  "version_code": 5,
-  "bytes": 9143050,
-  "file_sha256": "92e986eebafdd10af2bd1f627431f9912c864c15eeebe0a7209de3300d36493f",
+  "version_name": "1.1.5",
+  "version_code": 7,
+  "bytes": 9146820,
+  "file_sha256": "8e52e80adbc286010e92ef6c0ccd7081b871e24557b14851d22e5b2461008a43",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.3-5",
-  "notes": "修正 DCU 設定頁的讀取／寫入按鈕停用問題：統一短版與 Android 完整 BLE UUID 的比對，正確辨識設定服務與韌體版本。搭配 DCU 韌體 1.1.4 使用。"
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.5-7",
+  "notes": "修正與台電 DCU 的交叉相容性：支援實體設備的圖號整段基本資料回覆，補上通知啟用握手與 Android 連線優先度。已在平板實測可完整讀取實體地下 DCU 的四個設定欄位。\n\n搭配紅板韌體 1.1.5，台電 App 也已實測能讀取紅板四個欄位。此版本不代表完整 MQTT 或 FCI 透傳功能。"
 }
