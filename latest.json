@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.0",
-  "version_code": 2,
-  "bytes": 9117998,
-  "file_sha256": "d1c91e835b20193a90a4851c300b3fd40a930dd1545b3f866f8901580799120e",
+  "version_name": "1.1.1",
+  "version_code": 3,
+  "bytes": 9116591,
+  "file_sha256": "8f02f2eae4deff16503f798c31cf7e5dddb6d2667376fd42e1c934ba6c5b09d0",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.0-2",
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.1-3",
   "notes": "電力維護系統介面更新：深藍工作台、設備入口與 App 雲端版本檢查。下載需登入獲授權 GitHub 帳號，再由 Android 確認安裝。"
 }
