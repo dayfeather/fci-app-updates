@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.1",
-  "version_code": 3,
-  "bytes": 9116591,
-  "file_sha256": "8f02f2eae4deff16503f798c31cf7e5dddb6d2667376fd42e1c934ba6c5b09d0",
+  "version_name": "1.1.2",
+  "version_code": 4,
+  "bytes": 9142693,
+  "file_sha256": "f2f62876fc55b6896ce090adc2d39cf63601e74df211fd18b1346f18ad4fe6aa",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.1-3",
-  "notes": "電力維護系統介面更新：深藍工作台、設備入口與 App 雲端版本檢查。下載需登入獲授權 GitHub 帳號，再由 Android 確認安裝。"
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.2-4",
+  "notes": "DCU 連線成功後自動進入「DCU 設定」，沿用深藍電力維護介面。\n\n提供經度、緯度、台電圖號座標與 12 小時回報時間欄位，以及個別／全部讀取與寫入。GPS 定位僅填入座標，需按寫入才送至設備。讀寫依 DCU 草案的設定服務與加密協定處理；設備未提供設定服務時停用按鈕並顯示說明。喚醒、透傳 FCI 與 GPS 圖號換算尚未支援。\n\n目前測試紅板韌體 1.1.3 未提供 DCU 設定 GATT 服務，因此這次可驗證連線後頁面跳轉，尚不能在該韌體上實機驗證設定讀寫。APK 下載需登入獲授權的 GitHub 帳號。"
 }
