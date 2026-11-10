@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.2",
-  "version_code": 4,
-  "bytes": 9142693,
-  "file_sha256": "f2f62876fc55b6896ce090adc2d39cf63601e74df211fd18b1346f18ad4fe6aa",
+  "version_name": "1.1.3",
+  "version_code": 5,
+  "bytes": 9143050,
+  "file_sha256": "92e986eebafdd10af2bd1f627431f9912c864c15eeebe0a7209de3300d36493f",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.2-4",
-  "notes": "DCU 連線成功後自動進入「DCU 設定」，沿用深藍電力維護介面。\n\n提供經度、緯度、台電圖號座標與 12 小時回報時間欄位，以及個別／全部讀取與寫入。GPS 定位僅填入座標，需按寫入才送至設備。讀寫依 DCU 草案的設定服務與加密協定處理；設備未提供設定服務時停用按鈕並顯示說明。喚醒、透傳 FCI 與 GPS 圖號換算尚未支援。\n\n目前測試紅板韌體 1.1.3 未提供 DCU 設定 GATT 服務，因此這次可驗證連線後頁面跳轉，尚不能在該韌體上實機驗證設定讀寫。APK 下載需登入獲授權的 GitHub 帳號。"
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.3-5",
+  "notes": "修正 DCU 設定頁的讀取／寫入按鈕停用問題：統一短版與 Android 完整 BLE UUID 的比對，正確辨識設定服務與韌體版本。搭配 DCU 韌體 1.1.4 使用。"
 }
