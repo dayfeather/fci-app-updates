@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.5",
-  "version_code": 7,
-  "bytes": 9146820,
-  "file_sha256": "8e52e80adbc286010e92ef6c0ccd7081b871e24557b14851d22e5b2461008a43",
+  "version_name": "1.1.28",
+  "version_code": 30,
+  "bytes": 25067708,
+  "file_sha256": "5f54ddb2d25cf247e4b26007372f32aa2da483f1f52f4f757af9755bf9685e6e",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.5-7",
-  "notes": "修正與台電 DCU 的交叉相容性：支援實體設備的圖號整段基本資料回覆，補上通知啟用握手與 Android 連線優先度。已在平板實測可完整讀取實體地下 DCU 的四個設定欄位。\n\n搭配紅板韌體 1.1.5，台電 App 也已實測能讀取紅板四個欄位。此版本不代表完整 MQTT 或 FCI 透傳功能。"
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.28-30",
+  "notes": "DCU 維護功能更新：\n- 新增雲端 Log 下載，登入後可保存已上報的 DCU 診斷紀錄。\n- 新增可離線開啟的 DCU 維護設定頁，每台 DCU 可分別保存 App 草稿。\n- 新增 NB／Ethernet 選擇、NTP IP／UDP或TCP／Port、固定 IP／DHCP／遮罩／閘道／DNS 欄位。\n- NTP 預設為 10.168.168.1／UDP／123；TCP 僅保存草稿，實際支援待確認。\n\n限制：NB、NTP、Ethernet 新設定目前只保存於 App，尚未寫入設備；DCU 本機完整 Log 下載待韌體支援。NB 整合依目前規劃延後。\n\n亦包含 1.1.5 之後已驗證的原生雲端監控、MQTT 遠端 FCI 讀取／觸發／復歸、批次觸發、FCI 透傳與跨廠牌通知分段接收等 App 改進。設備端功能取決於所連 DCU／FCI 韌體支援。\n\n驗證：完整回歸 109 項通過、4 項條件式測試略過；最後手機排版修正後 6 項維護測試重跑通過，修改檔案靜態檢查無問題。APK 版本 1.1.28（30），簽章與既有版本一致。\n\n下載需登入獲授權的 GitHub 帳號，安裝仍由 Android 確認。本次發布 APK 與版本資訊，不包含完整 App 原始碼同步。"
 }
