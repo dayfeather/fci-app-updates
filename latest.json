@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.32",
-  "version_code": 34,
-  "bytes": 24953803,
-  "file_sha256": "dbd86e187050f71c37fbe96d9368482ffa5de18f3571af950a679b1fb725aae3",
+  "version_name": "1.1.33",
+  "version_code": 35,
+  "bytes": 25032505,
+  "file_sha256": "336b8da7ccd4afde6aae62f91e05e155c9764c02093cef3c05763b28d364860c",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.32-34",
-  "notes": "Demo 版本：保留設備連線、指派、基本讀寫、FCI 透傳及雲端監控。\n恢復單台觸發／復歸與全部觸發測試，其他尚未完成的維護草稿、定時回報、歷史上傳及 Log 下載入口繼續隱藏。\n新增 FCI 線上版本自動檢查與加密下載，目前 FCI 1.0.5 僅適用 TPC_T025B00099；下載後由使用者確認開始 OTA 更新。\n119 項測試通過，APK 簽章與舊版一致。自製 FCI 的實際閃燈效果仍待韌體 1.0.5 更新後驗證。\nAPK 位於私人 GitHub Release，下載需登入獲授權帳號，安裝由 Android 確認。"
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.33-35",
+  "notes": "恢復 Demo 的歷史紀錄入口：FCI 透傳頁可進入「採集並上傳歷史紀錄」，直連 FCI 可查看七日電流紀錄。\n保留單台觸發／復歸、全部觸發測試，以及 FCI 線上版本自動檢查與加密下載。\n維護設定草稿、定時回報及獨立 Log 下載入口仍暫時隱藏。\n歷史採集需 DCU 韌體 1.1.20 以上及設備、MQTT 網路正常；實際結果以採集狀態及雲端保存內容為準。\nAPK 簽章與舊版一致。下載需登入獲授權 GitHub 帳號，安裝由 Android 確認。"
 }
