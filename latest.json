@@ -2,12 +2,12 @@
   "schema_version": 1,
   "product": "FCI_MAINTENANCE_APP",
   "package_name": "com.example.fci",
-  "version_name": "1.1.28",
-  "version_code": 30,
-  "bytes": 25067708,
-  "file_sha256": "5f54ddb2d25cf247e4b26007372f32aa2da483f1f52f4f757af9755bf9685e6e",
+  "version_name": "1.1.32",
+  "version_code": 34,
+  "bytes": 24953803,
+  "file_sha256": "dbd86e187050f71c37fbe96d9368482ffa5de18f3571af950a679b1fb725aae3",
   "signer_sha256": "66fb33953643eafec7b0a4ae84f9968e385ba18882a0f5b9c8d36b260365d79b",
   "requires_authentication": true,
-  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.28-30",
-  "notes": "DCU 維護功能更新：\n- 新增雲端 Log 下載，登入後可保存已上報的 DCU 診斷紀錄。\n- 新增可離線開啟的 DCU 維護設定頁，每台 DCU 可分別保存 App 草稿。\n- 新增 NB／Ethernet 選擇、NTP IP／UDP或TCP／Port、固定 IP／DHCP／遮罩／閘道／DNS 欄位。\n- NTP 預設為 10.168.168.1／UDP／123；TCP 僅保存草稿，實際支援待確認。\n\n限制：NB、NTP、Ethernet 新設定目前只保存於 App，尚未寫入設備；DCU 本機完整 Log 下載待韌體支援。NB 整合依目前規劃延後。\n\n亦包含 1.1.5 之後已驗證的原生雲端監控、MQTT 遠端 FCI 讀取／觸發／復歸、批次觸發、FCI 透傳與跨廠牌通知分段接收等 App 改進。設備端功能取決於所連 DCU／FCI 韌體支援。\n\n驗證：完整回歸 109 項通過、4 項條件式測試略過；最後手機排版修正後 6 項維護測試重跑通過，修改檔案靜態檢查無問題。APK 版本 1.1.28（30），簽章與既有版本一致。\n\n下載需登入獲授權的 GitHub 帳號，安裝仍由 Android 確認。本次發布 APK 與版本資訊，不包含完整 App 原始碼同步。"
+  "release_url": "https://github.com/dayfeather/DCU/releases/tag/app-v1.1.32-34",
+  "notes": "Demo 版本：保留設備連線、指派、基本讀寫、FCI 透傳及雲端監控。\n恢復單台觸發／復歸與全部觸發測試，其他尚未完成的維護草稿、定時回報、歷史上傳及 Log 下載入口繼續隱藏。\n新增 FCI 線上版本自動檢查與加密下載，目前 FCI 1.0.5 僅適用 TPC_T025B00099；下載後由使用者確認開始 OTA 更新。\n119 項測試通過，APK 簽章與舊版一致。自製 FCI 的實際閃燈效果仍待韌體 1.0.5 更新後驗證。\nAPK 位於私人 GitHub Release，下載需登入獲授權帳號，安裝由 Android 確認。"
 }
